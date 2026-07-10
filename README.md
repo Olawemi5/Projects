@@ -4,4 +4,4 @@ Open research software and reproducible data tools developed by Adewemimo Charle
 
 ## Projects
 
-- [VITEK-EXTRACT](VITEK_EXTRACT/) - an R Shiny application for extracting antimicrobial susceptibility testing data from VITEK PDF reports, validating the results, and uploading structured records to REDCap.
+- [VITEK-EXTRACT](VITEK_EXTRACT/) - a GPL-3.0-licensed R Shiny application for extracting antimicrobial susceptibility testing data from VITEK PDF reports, validating the results, and uploading structured records to REDCap.

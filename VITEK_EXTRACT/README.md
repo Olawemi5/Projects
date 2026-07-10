@@ -256,3 +256,7 @@ Latest verified checks:
 - `0` failures
 - `0` warnings
 - `app.R` parses successfully
+
+## License
+
+VITEK-EXTRACT is free software distributed under the [GNU General Public License v3.0](LICENSE). You may use, study, modify, and redistribute it under the terms of that license. There are no additional restrictions on use by non-academic users.
