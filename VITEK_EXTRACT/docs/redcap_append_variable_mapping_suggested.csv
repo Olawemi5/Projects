@@ -1,0 +1,259 @@
+parser_version,uploader_version,source_name,target_redcap_name,update_mode,key_field,notes,source_present,suggested_target_redcap_name,suggested_target_redcap_label,match_score,match_method,match_status
+v1.0.0,v1.1.0,source_file,,update,FALSE,,NA,NA,NA,-20,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,biomerieux_customer,,update,FALSE,,NA,NA,NA,-25.5,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,report_title,,update,FALSE,,NA,NA,NA,-17,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,system_number,,update,FALSE,,NA,NA,NA,-19.5,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,printed_by,,update,FALSE,,NA,NA,NA,-8,token_overlap_field_label,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,last_updated,,update,FALSE,,NA,NA,NA,-14,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,updated_by,updated_by,update,FALSE,,NA,crf11_directgram_stain,7  Description of any organism by Direct Gram stain,-11.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,report_version,,update,FALSE,,NA,NA,NA,-19.5,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,patient_name,,update,FALSE,,NA,NA,NA,-7,token_overlap_field_label,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,patient_id,patient_id,key,TRUE,Primary lookup field for existing REDCap record,NA,participant_id,Participants ID,194,patient_identifier_top_of_dictionary,high_confidence
+v1.0.0,v1.1.0,isolate,isolate,update,FALSE,,NA,crf11_10a_ai,Organism 1 ID,78,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,isolate_status,,update,FALSE,,NA,NA,NA,-13,token_overlap_field_label,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,bench,,update,FALSE,,NA,NA,NA,-20,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,id_card_type,id_card_type,update,FALSE,,NA,participant_id,Participants ID,-1.5,token_overlap_field_name,low_confidence
+v1.0.0,v1.1.0,id_card_barcode,,update,FALSE,,NA,NA,NA,-4.5,token_overlap_field_name,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,id_testing_instrument,,update,FALSE,,NA,NA,NA,-8.5,token_overlap_field_name,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,ast_card_type,ast_card_type,update,FALSE,,NA,crf11_15_gnmethod1,Gram-Negative Organism 1 AST methods,-8.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,ast_card_barcode,ast_card_barcode,update,FALSE,,NA,crf11_15_gnmethod1,Gram-Negative Organism 1 AST methods,-12.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,ast_testing_instrument,,update,FALSE,,NA,NA,NA,-20,token_overlap_field_label,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,setup_technologist,,update,FALSE,,NA,NA,NA,-23,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,bionumber,,update,FALSE,,NA,NA,NA,-19.5,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,selected_organism,,update,FALSE,,NA,NA,NA,-15.5,token_overlap_field_label,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,installed_vitek_version,,update,FALSE,,NA,NA,NA,-28.5,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,mic_interpretation_guideline,,update,FALSE,,NA,NA,NA,-26,token_overlap_field_label,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,therapeutic_interpretation_guideline,,update,FALSE,,NA,NA,NA,-39,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,aes_parameter_set_name,,update,FALSE,,NA,NA,NA,-26,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,aes_parameter_last_modified,,update,FALSE,,NA,NA,NA,-27.5,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,mcfarland,,update,FALSE,,NA,NA,NA,-17,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,id_card,,update,FALSE,,NA,NA,NA,0,token_overlap_field_name,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,id_lot_number,,update,FALSE,,NA,NA,NA,-4,token_overlap_field_name,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,id_expires,,update,FALSE,,NA,NA,NA,-2.5,token_overlap_field_name,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,id_status,,update,FALSE,,NA,NA,NA,-1.5,token_overlap_field_name,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,id_analysis_time,,update,FALSE,,NA,NA,NA,-4,token_overlap_field_name,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,id_completed,,update,FALSE,,NA,NA,NA,0,token_overlap_field_name,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,organism_origin,,update,FALSE,,NA,NA,NA,-12.5,token_overlap_field_label,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,identified_organism,identified_organism,update,FALSE,,NA,crf11_directgram_stain,7  Description of any organism by Direct Gram stain,-15.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,organism_probability_pct,,update,FALSE,,NA,NA,NA,-21.5,token_overlap_field_label,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,id_confidence,,update,FALSE,,NA,NA,NA,-3,token_overlap_field_name,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,analysis_organisms_tests_to_separate,,update,FALSE,,NA,NA,NA,-37.5,token_overlap_field_label,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,contraindicating_typical_biopatterns,,update,FALSE,,NA,NA,NA,-42,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,susceptibility_card,,update,FALSE,,NA,NA,NA,-21,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,susceptibility_lot_number,,update,FALSE,,NA,NA,NA,-30.5,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,susceptibility_expires,,update,FALSE,,NA,NA,NA,-25.5,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,susceptibility_status,,update,FALSE,,NA,NA,NA,-18.5,token_overlap_field_label,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,susceptibility_analysis_time,,update,FALSE,,NA,NA,NA,-24,token_overlap_field_label,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,susceptibility_completed,,update,FALSE,,NA,NA,NA,-28.5,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,aes_last_modified,,update,FALSE,,NA,NA,NA,-21.5,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,aes_parameter_set,,update,FALSE,,NA,NA,NA,-21,distance_only,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,aes_confidence_level,,update,FALSE,,NA,NA,NA,-17,token_overlap_field_label,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,cefoxitin_screen_mic,cefoxitin_screen_mic,update,FALSE,,NA,crf11_16o1_ai,16ai Minimum Inhibitory Concentration (MIC µg/ml):Organism 1 Cefoxitin Screen,-2,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,cefoxitin_screen_interpretation_raw,cefoxitin_screen_interpretation_raw,update,FALSE,,NA,crf11_16o1_aii,16aii S/I/R Code :Organism 1- Cefoxitin Screen,52,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,cefoxitin_screen_interpretation,cefoxitin_screen_interpretation,update,FALSE,,NA,NA,NA,38,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,clindamycin_mic,clindamycin_mic,update,FALSE,,NA,crf11_15o1_ti,15si Minimum Inhibitory Concentration (MIC µg/ml): Organism 1-  Inducible Clindamycin resistance,-6,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,clindamycin_interpretation_raw,clindamycin_interpretation_raw,update,FALSE,,NA,crf11_15o1_tii,15sii S/I/R Code: Organism 1-  Inducible Clindamycin resistance,51,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,clindamycin_interpretation,clindamycin_interpretation,update,FALSE,,NA,NA,NA,37,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,ampicillin_mic,ampicillin_mic,update,FALSE,,NA,crf11_15o1_bi,15bi Minimum Inhibitory Concentration (MIC µg/ml): Organism 1- Ampicillin,0,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,ampicillin_interpretation_raw,ampicillin_interpretation_raw,update,FALSE,,NA,crf11_15o1_bii,15bii S/I/R Code: Organism 1- Ampicillin,52.5,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,ampicillin_interpretation,ampicillin_interpretation,update,FALSE,,NA,NA,NA,38.5,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,linezolid_mic,linezolid_mic,update,FALSE,,NA,crf11_16o1_ki,16ki Minimum Inhibitory Concentration (MIC µg/ml):Organism 1  Linezolid,-5.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,linezolid_interpretation_raw,linezolid_interpretation_raw,update,FALSE,,NA,crf11_16o1_kii,16kii S/I/R Code :Organism 1-  Linezolid,52.5,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,linezolid_interpretation,linezolid_interpretation,update,FALSE,,NA,NA,NA,38.5,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,oxacillin_mic,oxacillin_mic,update,FALSE,,NA,crf11_16o1_ci,16ci Minimum Inhibitory Concentration (MIC µg/ml):Organism 1 . Oxacillin,-3,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,oxacillin_interpretation_raw,oxacillin_interpretation_raw,update,FALSE,,NA,crf11_16o1_cii,16cii S/I/R Code :Organism 1- . Oxacillin,54,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,oxacillin_interpretation,oxacillin_interpretation,update,FALSE,,NA,NA,NA,40,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,daptomycin_mic,daptomycin_mic,update,FALSE,,NA,crf11_16o1_mi,16mi Minimum Inhibitory Concentration (MIC µg/ml):Organism 1 Daptomycin,-1.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,daptomycin_interpretation_raw,daptomycin_interpretation_raw,update,FALSE,,NA,crf11_16o1_mii,16mii S/I/R Code :Organism 1- Daptomycin,54,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,daptomycin_interpretation,daptomycin_interpretation,update,FALSE,,NA,NA,NA,40,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,gentamicin_high_level_synergy_mic,gentamicin_high_level_synergy_mic,update,FALSE,,NA,crf11_16o1_di,16di Minimum Inhibitory Concentration (MIC µg/ml):Organism 1 . Gentamicin (High level),-11,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,gentamicin_high_level_synergy_interpretation_raw,gentamicin_high_level_synergy_interpretation_raw,update,FALSE,,NA,crf11_16o1_dii,16dii S/I/R Code :Organism 1- . Gentamicin (High level),39.5,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,gentamicin_high_level_synergy_interpretation,gentamicin_high_level_synergy_interpretation,update,FALSE,,NA,NA,NA,25.5,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,vancomycin_mic,vancomycin_mic,update,FALSE,,NA,crf11_16o1_ni,16ni Minimum Inhibitory Concentration (MIC µg/ml):Organism 1 . Vancomycin,-3,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,vancomycin_interpretation_raw,vancomycin_interpretation_raw,update,FALSE,,NA,crf11_16o1_nii,16nii S/I/R Code :Organism 1- . Vancomycin,52.5,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,vancomycin_interpretation,vancomycin_interpretation,update,FALSE,,NA,NA,NA,38.5,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,streptomycin_high_level_synergy_mic,streptomycin_high_level_synergy_mic,update,FALSE,,NA,crf11_16o1_ei,16ei Minimum Inhibitory Concentration (MIC µg/ml):Organism 1 Streptomycin (High Level),-14,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,streptomycin_high_level_synergy_interpretation_raw,streptomycin_high_level_synergy_interpretation_raw,update,FALSE,,NA,crf11_16o1_eii,16eii S/I/R Code :Organism 1- Streptomycin (High Level),36.5,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,streptomycin_high_level_synergy_interpretation,streptomycin_high_level_synergy_interpretation,update,FALSE,,NA,NA,NA,22.5,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,doxycycline_mic,doxycycline_mic,update,FALSE,,NA,crf11_16o1_ui,16ri Minimum Inhibitory Concentration (MIC µg/ml):Organism 1 Doxycycline,-4.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,doxycycline_interpretation_raw,doxycycline_interpretation_raw,update,FALSE,,NA,crf11_16o1_uii,16rii S/I/R Code :Organism 1- Doxycycline,49.5,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,doxycycline_interpretation,doxycycline_interpretation,update,FALSE,,NA,NA,NA,35.5,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,gentamicin_mic,gentamicin_mic,update,FALSE,,NA,crf11_15o1_mi,15mi Minimum Inhibitory Concentration (MIC µg/ml): Organism 1- Gentamicin,-1.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,gentamicin_interpretation_raw,gentamicin_interpretation_raw,update,FALSE,,NA,crf11_15o1_mii,15mii S/I/R Code: Organism 1- . Gentamicin,54,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,gentamicin_interpretation,gentamicin_interpretation,update,FALSE,,NA,NA,NA,40,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,tetracycline_mic,tetracycline_mic,update,FALSE,,NA,crf11_15o1_ui,15si Minimum Inhibitory Concentration (MIC µg/ml): Organism 1-  Tetracycline,-4.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,tetracycline_interpretation_raw,tetracycline_interpretation_raw,update,FALSE,,NA,crf11_15o1_uii,15sii S/I/R Code: Organism 1-  Tetracycline,49.5,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,tetracycline_interpretation,tetracycline_interpretation,update,FALSE,,NA,NA,NA,35.5,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,ciprofloxacin_mic,ciprofloxacin_mic,update,FALSE,,NA,crf11_15o1_pi,15pi Minimum Inhibitory Concentration (MIC µg/ml): Organism 1- Ciprofloxacin,-5.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,ciprofloxacin_interpretation_raw,ciprofloxacin_interpretation_raw,update,FALSE,,NA,crf11_15o1_pii,15pii S/I/R Code: Organism 1- Ciprofloxacin,48,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,ciprofloxacin_interpretation,ciprofloxacin_interpretation,update,FALSE,,NA,NA,NA,34,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,tigecycline_mic,tigecycline_mic,update,FALSE,,NA,crf11_16o1_pi,16pi Minimum Inhibitory Concentration (MIC µg/ml):Organism 1  Tigecycline,-4.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,tigecycline_interpretation_raw,tigecycline_interpretation_raw,update,FALSE,,NA,crf11_16o1_pii,16pii S/I/R Code :Organism 1-  Tigecycline,49.5,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,tigecycline_interpretation,tigecycline_interpretation,update,FALSE,,NA,NA,NA,35.5,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,levofloxacin_mic,levofloxacin_mic,update,FALSE,,NA,crf11_15o1_qi,15qi Minimum Inhibitory Concentration (MIC µg/ml): Organism 1- Levofloxacin,-5.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,levofloxacin_interpretation_raw,levofloxacin_interpretation_raw,update,FALSE,,NA,crf11_15o1_qii,15qii S/I/R Code: Organism 1- Levofloxacin,48,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,levofloxacin_interpretation,levofloxacin_interpretation,update,FALSE,,NA,NA,NA,34,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,nitrofurantoin_mic,nitrofurantoin_mic,update,FALSE,,NA,crf11_15o1_ri,15ri Minimum Inhibitory Concentration (MIC µg/ml): Organism 1- Nitrofurantoin,-5.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,nitrofurantoin_interpretation_raw,nitrofurantoin_interpretation_raw,update,FALSE,,NA,crf11_15o1_rii,15rii S/I/R Code: Organism 1- Nitrofurantoin,48,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,nitrofurantoin_interpretation,nitrofurantoin_interpretation,update,FALSE,,NA,NA,NA,34,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,moxifloxacin_mic,moxifloxacin_mic,update,FALSE,,NA,crf11_16o1_ii,16ii Minimum Inhibitory Concentration (MIC µg/ml):Organism 1 Moxifloxacin,-5.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,moxifloxacin_interpretation_raw,moxifloxacin_interpretation_raw,update,FALSE,,NA,crf11_16o1_iii,16iii  S/I/R Code :Organism 1- Moxifloxacin,48,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,moxifloxacin_interpretation,moxifloxacin_interpretation,update,FALSE,,NA,NA,NA,34,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,rifampicin_mic,rifampicin_mic,update,FALSE,,NA,crf11_16o1_ri,16ri Minimum Inhibitory Concentration (MIC µg/ml):Organism 1 Rifampicin,-1.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,rifampicin_interpretation_raw,rifampicin_interpretation_raw,update,FALSE,,NA,crf11_16o1_rii,16rii S/I/R Code :Organism 1- Rifampicin,54,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,rifampicin_interpretation,rifampicin_interpretation,update,FALSE,,NA,NA,NA,40,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,inducible_clindamycin_resistance_mic,inducible_clindamycin_resistance_mic,update,FALSE,,NA,crf11_15o1_ti,15si Minimum Inhibitory Concentration (MIC µg/ml): Organism 1-  Inducible Clindamycin resistance,-14,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,inducible_clindamycin_resistance_interpretation_raw,inducible_clindamycin_resistance_interpretation_raw,update,FALSE,,NA,crf11_15o1_tii,15sii S/I/R Code: Organism 1-  Inducible Clindamycin resistance,36.5,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,inducible_clindamycin_resistance_interpretation,inducible_clindamycin_resistance_interpretation,update,FALSE,,NA,NA,NA,22.5,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,trimethoprim_sulfamethoxazole_mic,trimethoprim_sulfamethoxazole_mic,update,FALSE,,NA,crf11_15o1_si,15si Minimum Inhibitory Concentration (MIC µg/ml): Organism 1-  Trimethoprim/ Sulfamethoxazole,-19.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,trimethoprim_sulfamethoxazole_interpretation_raw,trimethoprim_sulfamethoxazole_interpretation_raw,update,FALSE,,NA,crf11_15o1_sii,15sii S/I/R Code: Organism 1-  Trimethoprim/ Sulfamethoxazole,32.5,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,trimethoprim_sulfamethoxazole_interpretation,trimethoprim_sulfamethoxazole_interpretation,update,FALSE,,NA,NA,NA,18.5,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,erythromycin_mic,erythromycin_mic,update,FALSE,,NA,crf11_16o1_si,16ri Minimum Inhibitory Concentration (MIC µg/ml):Organism 1 Erythromycin,-5.5,token_overlap_field_label,low_confidence
+v1.0.0,v1.1.0,erythromycin_interpretation_raw,erythromycin_interpretation_raw,update,FALSE,,NA,crf11_16o1_sii,16rii S/I/R Code :Organism 1- Erythromycin,49.5,susceptibility_semantics,needs_review
+v1.0.0,v1.1.0,erythromycin_interpretation,erythromycin_interpretation,update,FALSE,,NA,NA,NA,35.5,token_overlap_field_label,left_unmapped_low_confidence
+v1.0.0,v1.1.0,id_analysis_messages,,update,FALSE,,NA,NA,NA,-9.5,token_overlap_field_name,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,comments,comments,update,FALSE,,NA,crf11a_21_v2b,Comments:,84,exact_field_label,high_confidence
+v1.0.0,v1.1.0,isolate_2,isolate_2,update,FALSE,,NA,crf11_10a_bi,Organism 2 ID,85.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,isolate_status_2,,update,FALSE,,NA,NA,NA,66.5,isolate_slot_semantics,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,selected_organism_2,,update,FALSE,,NA,NA,NA,63.5,isolate_slot_semantics,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,mcfarland_2,,update,FALSE,,NA,NA,NA,70,isolate_slot_semantics,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,id_card_2,,update,FALSE,,NA,NA,NA,70,isolate_slot_semantics,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,organism_origin_2,,update,FALSE,,NA,NA,NA,64.5,isolate_slot_semantics,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,identified_organism_2,identified_organism_2,update,FALSE,,NA,crf11_2,2 Date and time Received,63.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,organism_probability_pct_2,,update,FALSE,,NA,NA,NA,55.5,isolate_slot_semantics,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,id_confidence_2,,update,FALSE,,NA,NA,NA,67.5,isolate_slot_semantics,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,cefoxitin_screen_mic_2,cefoxitin_screen_mic_2,update,FALSE,,NA,crf11_16o2_ai,16ai Minimum Inhibitory Concentration (MIC µg/ml):Organism 2 Cefoxitin Screen,72,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,cefoxitin_screen_interpretation_raw_2,cefoxitin_screen_interpretation_raw_2,update,FALSE,,NA,crf11_16o2_aii,16aii S/I/R Code :Organism 2- Cefoxitin Screen,126,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,cefoxitin_screen_interpretation_2,cefoxitin_screen_interpretation_2,update,FALSE,,NA,crf11_16o2_aii,16aii S/I/R Code :Organism 2- Cefoxitin Screen,112,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,clindamycin_mic_2,clindamycin_mic_2,update,FALSE,,NA,crf11_16o2_ji,16ji Minimum Inhibitory Concentration (MIC µg/ml):Organism 2 Clindamycin,68.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,clindamycin_interpretation_raw_2,clindamycin_interpretation_raw_2,update,FALSE,,NA,crf11_16o2_jii,16jii S/I/R Code :Organism 2- Clindamycin,125,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,clindamycin_interpretation_2,clindamycin_interpretation_2,update,FALSE,,NA,crf11_16o2_jii,16jii S/I/R Code :Organism 2- Clindamycin,111,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,ampicillin_mic_2,ampicillin_mic_2,update,FALSE,,NA,crf11_15o2_bi,15bi Minimum Inhibitory Concentration (MIC µg/ml): Organism 2- Ampicillin,74,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,ampicillin_interpretation_raw_2,ampicillin_interpretation_raw_2,update,FALSE,,NA,crf11_15o2_bii,15bii S/I/R Code: Organism 2- Ampicillin,126.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,ampicillin_interpretation_2,ampicillin_interpretation_2,update,FALSE,,NA,crf11_15o2_bii,15bii S/I/R Code: Organism 2- Ampicillin,112.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,linezolid_mic_2,linezolid_mic_2,update,FALSE,,NA,crf11_16o2_ki,16ki Minimum Inhibitory Concentration (MIC µg/ml):Organism 2  Linezolid,70,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,linezolid_interpretation_raw_2,linezolid_interpretation_raw_2,update,FALSE,,NA,crf11_16o2_kii,16kii S/I/R Code :Organism 2-  Linezolid,126.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,linezolid_interpretation_2,linezolid_interpretation_2,update,FALSE,,NA,crf11_16o2_kii,16kii S/I/R Code :Organism 2-  Linezolid,112.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,oxacillin_mic_2,oxacillin_mic_2,update,FALSE,,NA,crf11_16o2_ci,16ci Minimum Inhibitory Concentration (MIC µg/ml):Organism 2 . Oxacillin,71.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,oxacillin_interpretation_raw_2,oxacillin_interpretation_raw_2,update,FALSE,,NA,crf11_16o2_cii,16cii S/I/R Code :Organism 2- . Oxacillin,128,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,oxacillin_interpretation_2,oxacillin_interpretation_2,update,FALSE,,NA,crf11_16o2_cii,16cii S/I/R Code :Organism 2- . Oxacillin,114,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,daptomycin_mic_2,daptomycin_mic_2,update,FALSE,,NA,crf11_16o2_mi,16mi Minimum Inhibitory Concentration (MIC µg/ml):Organism 2 Daptomycin,73,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,daptomycin_interpretation_raw_2,daptomycin_interpretation_raw_2,update,FALSE,,NA,crf11_16o2_mii,16mii S/I/R Code :Organism 2- Daptomycin,128,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,daptomycin_interpretation_2,daptomycin_interpretation_2,update,FALSE,,NA,crf11_16o2_mii,16mii S/I/R Code :Organism 2- Daptomycin,114,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,gentamicin_high_level_synergy_mic_2,gentamicin_high_level_synergy_mic_2,update,FALSE,,NA,crf11_16o2_di,16di Minimum Inhibitory Concentration (MIC µg/ml):Organism 2 . Gentamicin (High level),63,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,gentamicin_high_level_synergy_interpretation_raw_2,gentamicin_high_level_synergy_interpretation_raw_2,update,FALSE,,NA,crf11_16o2_dii,16dii S/I/R Code :Organism 2- . Gentamicin (High level),113.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,gentamicin_high_level_synergy_interpretation_2,gentamicin_high_level_synergy_interpretation_2,update,FALSE,,NA,crf11_16o2_dii,16dii S/I/R Code :Organism 2- . Gentamicin (High level),99.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,vancomycin_mic_2,vancomycin_mic_2,update,FALSE,,NA,crf11_16o2_ni,16ni Minimum Inhibitory Concentration (MIC µg/ml):Organism 2 . Vancomycin,71.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,vancomycin_interpretation_raw_2,vancomycin_interpretation_raw_2,update,FALSE,,NA,crf11_16o2_nii,16nii S/I/R Code :Organism 2- . Vancomycin,126.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,vancomycin_interpretation_2,vancomycin_interpretation_2,update,FALSE,,NA,crf11_16o2_nii,16nii S/I/R Code :Organism 2- . Vancomycin,112.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,streptomycin_high_level_synergy_mic_2,streptomycin_high_level_synergy_mic_2,update,FALSE,,NA,crf11_16o2_ei,16ei Minimum Inhibitory Concentration (MIC µg/ml):Organism 2 Streptomycin (High Level),60,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,streptomycin_high_level_synergy_interpretation_raw_2,streptomycin_high_level_synergy_interpretation_raw_2,update,FALSE,,NA,crf11_16o2_eii,16eii S/I/R Code :Organism 2- Streptomycin (High Level),110.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,streptomycin_high_level_synergy_interpretation_2,streptomycin_high_level_synergy_interpretation_2,update,FALSE,,NA,crf11_16o2_eii,16eii S/I/R Code :Organism 2- Streptomycin (High Level),96.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,doxycycline_mic_2,doxycycline_mic_2,update,FALSE,,NA,crf11_16o2_ui,16ri Minimum Inhibitory Concentration (MIC µg/ml):Organism 2 Doxycycline,69.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,doxycycline_interpretation_raw_2,doxycycline_interpretation_raw_2,update,FALSE,,NA,crf11_16o2_uii,16rii S/I/R Code :Organism 2- Doxycycline,123.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,doxycycline_interpretation_2,doxycycline_interpretation_2,update,FALSE,,NA,crf11_16o2_uii,16rii S/I/R Code :Organism 2- Doxycycline,109.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,gentamicin_mic_2,gentamicin_mic_2,update,FALSE,,NA,crf11_15o2_mi,15mi Minimum Inhibitory Concentration (MIC µg/ml): Organism 2- Gentamicin,73,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,gentamicin_interpretation_raw_2,gentamicin_interpretation_raw_2,update,FALSE,,NA,crf11_15o2_mii,15mii S/I/R Code: Organism 2- . Gentamicin,128,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,gentamicin_interpretation_2,gentamicin_interpretation_2,update,FALSE,,NA,crf11_15o2_mii,15mii S/I/R Code: Organism 2- . Gentamicin,114,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,tetracycline_mic_2,tetracycline_mic_2,update,FALSE,,NA,crf11_15o2_ui,15si Minimum Inhibitory Concentration (MIC µg/ml): Organism 2-  Tetracycline,69.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,tetracycline_interpretation_raw_2,tetracycline_interpretation_raw_2,update,FALSE,,NA,crf11_15o2_uii,15sii S/I/R Code: Organism 2-  Tetracycline,123.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,tetracycline_interpretation_2,tetracycline_interpretation_2,update,FALSE,,NA,crf11_15o2_uii,15sii S/I/R Code: Organism 2-  Tetracycline,109.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,ciprofloxacin_mic_2,ciprofloxacin_mic_2,update,FALSE,,NA,crf11_15o2_pi,15pi Minimum Inhibitory Concentration (MIC µg/ml): Organism 2- Ciprofloxacin,68.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,ciprofloxacin_interpretation_raw_2,ciprofloxacin_interpretation_raw_2,update,FALSE,,NA,crf11_15o2_pii,15pii S/I/R Code: Organism 2- Ciprofloxacin,122,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,ciprofloxacin_interpretation_2,ciprofloxacin_interpretation_2,update,FALSE,,NA,crf11_15o2_pii,15pii S/I/R Code: Organism 2- Ciprofloxacin,108,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,tigecycline_mic_2,tigecycline_mic_2,update,FALSE,,NA,crf11_16o2_pi,16pi Minimum Inhibitory Concentration (MIC µg/ml):Organism 2  Tigecycline,69.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,tigecycline_interpretation_raw_2,tigecycline_interpretation_raw_2,update,FALSE,,NA,crf11_16o2_pii,16pii S/I/R Code :Organism 2-  Tigecycline,123.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,tigecycline_interpretation_2,tigecycline_interpretation_2,update,FALSE,,NA,crf11_16o2_pii,16pii S/I/R Code :Organism 2-  Tigecycline,109.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,levofloxacin_mic_2,levofloxacin_mic_2,update,FALSE,,NA,crf11_15o2_qi,15qi Minimum Inhibitory Concentration (MIC µg/ml): Organism 2- Levofloxacin,68.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,levofloxacin_interpretation_raw_2,levofloxacin_interpretation_raw_2,update,FALSE,,NA,crf11_15o2_qii,15qii S/I/R Code: Organism 2- Levofloxacin,122,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,levofloxacin_interpretation_2,levofloxacin_interpretation_2,update,FALSE,,NA,crf11_15o2_qii,15qii S/I/R Code: Organism 2- Levofloxacin,108,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,nitrofurantoin_mic_2,nitrofurantoin_mic_2,update,FALSE,,NA,crf11_15o2_ri,15ri Minimum Inhibitory Concentration (MIC µg/ml): Organism 2- Nitrofurantoin,68.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,nitrofurantoin_interpretation_raw_2,nitrofurantoin_interpretation_raw_2,update,FALSE,,NA,crf11_15o2_rii,15rii S/I/R Code: Organism 2- Nitrofurantoin,122,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,nitrofurantoin_interpretation_2,nitrofurantoin_interpretation_2,update,FALSE,,NA,crf11_15o2_rii,15rii S/I/R Code: Organism 2- Nitrofurantoin,108,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,moxifloxacin_mic_2,moxifloxacin_mic_2,update,FALSE,,NA,crf11_16o2_ii,16ii Minimum Inhibitory Concentration (MIC µg/ml):Organism 2 Moxifloxacin,68.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,moxifloxacin_interpretation_raw_2,moxifloxacin_interpretation_raw_2,update,FALSE,,NA,crf11_16o2_iii,16iii  S/I/R Code :Organism 2- Moxifloxacin,122,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,moxifloxacin_interpretation_2,moxifloxacin_interpretation_2,update,FALSE,,NA,crf11_16o2_iii,16iii  S/I/R Code :Organism 2- Moxifloxacin,108,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,rifampicin_mic_2,rifampicin_mic_2,update,FALSE,,NA,crf11_16o2_ri,16ri Minimum Inhibitory Concentration (MIC µg/ml):Organism 2 Rifampicin,73,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,rifampicin_interpretation_raw_2,rifampicin_interpretation_raw_2,update,FALSE,,NA,crf11_16o2_rii,16rii S/I/R Code :Organism 2- Rifampicin,128,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,rifampicin_interpretation_2,rifampicin_interpretation_2,update,FALSE,,NA,crf11_16o2_rii,16rii S/I/R Code :Organism 2- Rifampicin,114,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,inducible_clindamycin_resistance_mic_2,inducible_clindamycin_resistance_mic_2,update,FALSE,,NA,crf11_16o2_ti,16ri Minimum Inhibitory Concentration (MIC µg/ml):Organism 2 Inducible Clindamycin resistance,60,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,inducible_clindamycin_resistance_interpretation_raw_2,inducible_clindamycin_resistance_interpretation_raw_2,update,FALSE,,NA,crf11_16o2_tii,16rii S/I/R Code :Organism 2- Inducible Clindamycin resistance,110.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,inducible_clindamycin_resistance_interpretation_2,inducible_clindamycin_resistance_interpretation_2,update,FALSE,,NA,crf11_16o2_tii,16rii S/I/R Code :Organism 2- Inducible Clindamycin resistance,96.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,trimethoprim_sulfamethoxazole_mic_2,trimethoprim_sulfamethoxazole_mic_2,update,FALSE,,NA,crf11_15o2_si,15si Minimum Inhibitory Concentration (MIC µg/ml): Organism 2-  Trimethoprim/ Sulfamethoxazole,54.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,trimethoprim_sulfamethoxazole_interpretation_raw_2,trimethoprim_sulfamethoxazole_interpretation_raw_2,update,FALSE,,NA,crf11_15o2_sii,15sii S/I/R Code: Organism 2-  Trimethoprim/ Sulfamethoxazole,106.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,trimethoprim_sulfamethoxazole_interpretation_2,trimethoprim_sulfamethoxazole_interpretation_2,update,FALSE,,NA,crf11_15o2_sii,15sii S/I/R Code: Organism 2-  Trimethoprim/ Sulfamethoxazole,92.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,erythromycin_mic_2,erythromycin_mic_2,update,FALSE,,NA,crf11_16o2_si,16ri Minimum Inhibitory Concentration (MIC µg/ml):Organism 2 Erythromycin,68.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,erythromycin_interpretation_raw_2,erythromycin_interpretation_raw_2,update,FALSE,,NA,crf11_16o2_sii,16rii S/I/R Code :Organism 2- Erythromycin,123.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,erythromycin_interpretation_2,erythromycin_interpretation_2,update,FALSE,,NA,crf11_16o2_sii,16rii S/I/R Code :Organism 2- Erythromycin,109.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,isolate_3,isolate_3,update,FALSE,,NA,crf11_10a_ci,Organism 3 ID,85.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,isolate_status_3,,update,FALSE,,NA,NA,NA,56.5,isolate_slot_semantics,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,selected_organism_3,,update,FALSE,,NA,NA,NA,60.5,isolate_slot_semantics,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,mcfarland_3,,update,FALSE,,NA,NA,NA,60,isolate_slot_semantics,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,id_card_3,,update,FALSE,,NA,NA,NA,67,isolate_slot_semantics,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,organism_origin_3,,update,FALSE,,NA,NA,NA,61.5,isolate_slot_semantics,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,identified_organism_3,identified_organism_3,update,FALSE,,NA,crf11_9bi,8e  Description of any organism by Gram stain - Organism 3,60.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,organism_probability_pct_3,,update,FALSE,,NA,NA,NA,52.5,isolate_slot_semantics,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,id_confidence_3,,update,FALSE,,NA,NA,NA,64.5,isolate_slot_semantics,left_unmapped_parser_metadata
+v1.0.0,v1.1.0,cefoxitin_screen_mic_3,cefoxitin_screen_mic_3,update,FALSE,,NA,crf11_16o3_ai,16ai Minimum Inhibitory Concentration (MIC µg/ml):Organism 3 Cefoxitin Screen,72,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,cefoxitin_screen_interpretation_raw_3,cefoxitin_screen_interpretation_raw_3,update,FALSE,,NA,crf11_16o3_aii,16aii S/I/R Code :Organism 3- Cefoxitin Screen,126,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,cefoxitin_screen_interpretation_3,cefoxitin_screen_interpretation_3,update,FALSE,,NA,crf11_16o3_aii,16aii S/I/R Code :Organism 3- Cefoxitin Screen,112,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,clindamycin_mic_3,clindamycin_mic_3,update,FALSE,,NA,crf11_16o3_ji,16ji Minimum Inhibitory Concentration (MIC µg/ml):Organism 3 Clindamycin,68.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,clindamycin_interpretation_raw_3,clindamycin_interpretation_raw_3,update,FALSE,,NA,crf11_16o3_jii,16jii S/I/R Code :Organism 3- Clindamycin,125,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,clindamycin_interpretation_3,clindamycin_interpretation_3,update,FALSE,,NA,crf11_16o3_jii,16jii S/I/R Code :Organism 3- Clindamycin,111,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,ampicillin_mic_3,ampicillin_mic_3,update,FALSE,,NA,crf11_15o3_bi,15bi Minimum Inhibitory Concentration (MIC µg/ml): Organism 3- Ampicillin,74,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,ampicillin_interpretation_raw_3,ampicillin_interpretation_raw_3,update,FALSE,,NA,crf11_15o3_bii,15bii S/I/R Code: Organism 3- Ampicillin,126.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,ampicillin_interpretation_3,ampicillin_interpretation_3,update,FALSE,,NA,crf11_15o3_bii,15bii S/I/R Code: Organism 3- Ampicillin,112.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,linezolid_mic_3,linezolid_mic_3,update,FALSE,,NA,crf11_16o3_ki,16ki Minimum Inhibitory Concentration (MIC µg/ml):Organism 3  Linezolid,70,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,linezolid_interpretation_raw_3,linezolid_interpretation_raw_3,update,FALSE,,NA,crf11_16o3_kii,16kii S/I/R Code :Organism 3-  Linezolid,126.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,linezolid_interpretation_3,linezolid_interpretation_3,update,FALSE,,NA,crf11_16o3_kii,16kii S/I/R Code :Organism 3-  Linezolid,112.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,oxacillin_mic_3,oxacillin_mic_3,update,FALSE,,NA,crf11_16o3_ci,16ci Minimum Inhibitory Concentration (MIC µg/ml):Organism 3 . Oxacillin,71.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,oxacillin_interpretation_raw_3,oxacillin_interpretation_raw_3,update,FALSE,,NA,crf11_16o3_cii,16cii S/I/R Code :Organism 3- . Oxacillin,128,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,oxacillin_interpretation_3,oxacillin_interpretation_3,update,FALSE,,NA,crf11_16o3_cii,16cii S/I/R Code :Organism 3- . Oxacillin,114,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,daptomycin_mic_3,daptomycin_mic_3,update,FALSE,,NA,crf11_16o3_mi,16mi Minimum Inhibitory Concentration (MIC µg/ml):Organism 3 Daptomycin,73,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,daptomycin_interpretation_raw_3,daptomycin_interpretation_raw_3,update,FALSE,,NA,crf11_16o3_mii,16mii S/I/R Code :Organism 3- Daptomycin,128,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,daptomycin_interpretation_3,daptomycin_interpretation_3,update,FALSE,,NA,crf11_16o3_mii,16mii S/I/R Code :Organism 3- Daptomycin,114,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,gentamicin_high_level_synergy_mic_3,gentamicin_high_level_synergy_mic_3,update,FALSE,,NA,crf11_16o3_di,16di Minimum Inhibitory Concentration (MIC µg/ml):Organism 3 . Gentamicin (High level),63,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,gentamicin_high_level_synergy_interpretation_raw_3,gentamicin_high_level_synergy_interpretation_raw_3,update,FALSE,,NA,crf11_16o3_dii,16dii S/I/R Code :Organism 3- . Gentamicin (High level),113.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,gentamicin_high_level_synergy_interpretation_3,gentamicin_high_level_synergy_interpretation_3,update,FALSE,,NA,crf11_16o3_dii,16dii S/I/R Code :Organism 3- . Gentamicin (High level),99.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,vancomycin_mic_3,vancomycin_mic_3,update,FALSE,,NA,crf11_16o3_ni,16ni Minimum Inhibitory Concentration (MIC µg/ml):Organism 3 . Vancomycin,71.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,vancomycin_interpretation_raw_3,vancomycin_interpretation_raw_3,update,FALSE,,NA,crf11_16o3_nii,16nii S/I/R Code :Organism 3- . Vancomycin,126.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,vancomycin_interpretation_3,vancomycin_interpretation_3,update,FALSE,,NA,crf11_16o3_nii,16nii S/I/R Code :Organism 3- . Vancomycin,112.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,streptomycin_high_level_synergy_mic_3,streptomycin_high_level_synergy_mic_3,update,FALSE,,NA,crf11_16o3_ei,16ei Minimum Inhibitory Concentration (MIC µg/ml):Organism 3 Streptomycin (High Level),60,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,streptomycin_high_level_synergy_interpretation_raw_3,streptomycin_high_level_synergy_interpretation_raw_3,update,FALSE,,NA,crf11_16o3_eii,16eii S/I/R Code :Organism 3- Streptomycin (High Level),110.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,streptomycin_high_level_synergy_interpretation_3,streptomycin_high_level_synergy_interpretation_3,update,FALSE,,NA,crf11_16o3_eii,16eii S/I/R Code :Organism 3- Streptomycin (High Level),96.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,doxycycline_mic_3,doxycycline_mic_3,update,FALSE,,NA,crf11_16o3_ui,16ri Minimum Inhibitory Concentration (MIC µg/ml):Organism 3 Doxycycline,69.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,doxycycline_interpretation_raw_3,doxycycline_interpretation_raw_3,update,FALSE,,NA,crf11_16o3_uii,16rii S/I/R Code :Organism 3- Doxycycline,123.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,doxycycline_interpretation_3,doxycycline_interpretation_3,update,FALSE,,NA,crf11_16o3_uii,16rii S/I/R Code :Organism 3- Doxycycline,109.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,gentamicin_mic_3,gentamicin_mic_3,update,FALSE,,NA,crf11_15o3_mi,15mi Minimum Inhibitory Concentration (MIC µg/ml): Organism 3- Gentamicin,73,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,gentamicin_interpretation_raw_3,gentamicin_interpretation_raw_3,update,FALSE,,NA,crf11_15o3_mii,15mii S/I/R Code: Organism 3- . Gentamicin,128,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,gentamicin_interpretation_3,gentamicin_interpretation_3,update,FALSE,,NA,crf11_15o3_mii,15mii S/I/R Code: Organism 3- . Gentamicin,114,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,tetracycline_mic_3,tetracycline_mic_3,update,FALSE,,NA,crf11_15o3_ui,15si Minimum Inhibitory Concentration (MIC µg/ml): Organism 3-  Tetracycline,69.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,tetracycline_interpretation_raw_3,tetracycline_interpretation_raw_3,update,FALSE,,NA,crf11_15o3_uii,15sii S/I/R Code: Organism 3-  Tetracycline,123.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,tetracycline_interpretation_3,tetracycline_interpretation_3,update,FALSE,,NA,crf11_15o3_uii,15sii S/I/R Code: Organism 3-  Tetracycline,109.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,ciprofloxacin_mic_3,ciprofloxacin_mic_3,update,FALSE,,NA,crf11_15o3_pi,15pi Minimum Inhibitory Concentration (MIC µg/ml): Organism 3- Ciprofloxacin,68.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,ciprofloxacin_interpretation_raw_3,ciprofloxacin_interpretation_raw_3,update,FALSE,,NA,crf11_15o3_pii,15pii S/I/R Code: Organism 3- Ciprofloxacin,122,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,ciprofloxacin_interpretation_3,ciprofloxacin_interpretation_3,update,FALSE,,NA,crf11_15o3_pii,15pii S/I/R Code: Organism 3- Ciprofloxacin,108,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,tigecycline_mic_3,tigecycline_mic_3,update,FALSE,,NA,crf11_16o3_pi,16pi Minimum Inhibitory Concentration (MIC µg/ml):Organism 3  Tigecycline,69.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,tigecycline_interpretation_raw_3,tigecycline_interpretation_raw_3,update,FALSE,,NA,crf11_16o3_pii,16pii S/I/R Code :Organism 3-  Tigecycline,123.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,tigecycline_interpretation_3,tigecycline_interpretation_3,update,FALSE,,NA,crf11_16o3_pii,16pii S/I/R Code :Organism 3-  Tigecycline,109.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,levofloxacin_mic_3,levofloxacin_mic_3,update,FALSE,,NA,crf11_15o3_qi,15qi Minimum Inhibitory Concentration (MIC µg/ml): Organism 3- Levofloxacin,68.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,levofloxacin_interpretation_raw_3,levofloxacin_interpretation_raw_3,update,FALSE,,NA,crf11_15o3_qii,15qii S/I/R Code: Organism 3- Levofloxacin,122,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,levofloxacin_interpretation_3,levofloxacin_interpretation_3,update,FALSE,,NA,crf11_15o3_qii,15qii S/I/R Code: Organism 3- Levofloxacin,108,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,nitrofurantoin_mic_3,nitrofurantoin_mic_3,update,FALSE,,NA,crf11_15o3_ri,15ri Minimum Inhibitory Concentration (MIC µg/ml): Organism 3- Nitrofurantoin,68.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,nitrofurantoin_interpretation_raw_3,nitrofurantoin_interpretation_raw_3,update,FALSE,,NA,crf11_15o3_rii,15rii S/I/R Code: Organism 3- Nitrofurantoin,122,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,nitrofurantoin_interpretation_3,nitrofurantoin_interpretation_3,update,FALSE,,NA,crf11_15o3_rii,15rii S/I/R Code: Organism 3- Nitrofurantoin,108,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,moxifloxacin_mic_3,moxifloxacin_mic_3,update,FALSE,,NA,crf11_16o3_ii,16ii Minimum Inhibitory Concentration (MIC µg/ml):Organism 3 Moxifloxacin,68.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,moxifloxacin_interpretation_raw_3,moxifloxacin_interpretation_raw_3,update,FALSE,,NA,crf11_16o3_iii,16iii  S/I/R Code :Organism 3- Moxifloxacin,122,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,moxifloxacin_interpretation_3,moxifloxacin_interpretation_3,update,FALSE,,NA,crf11_16o3_iii,16iii  S/I/R Code :Organism 3- Moxifloxacin,108,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,rifampicin_mic_3,rifampicin_mic_3,update,FALSE,,NA,crf11_16o3_ri,16ri Minimum Inhibitory Concentration (MIC µg/ml):Organism 3 Rifampicin,73,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,rifampicin_interpretation_raw_3,rifampicin_interpretation_raw_3,update,FALSE,,NA,crf11_16o3_rii,16rii S/I/R Code :Organism 3- Rifampicin,128,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,rifampicin_interpretation_3,rifampicin_interpretation_3,update,FALSE,,NA,crf11_16o3_rii,16rii S/I/R Code :Organism 3- Rifampicin,114,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,inducible_clindamycin_resistance_mic_3,inducible_clindamycin_resistance_mic_3,update,FALSE,,NA,crf11_16o3_ti,16ri Minimum Inhibitory Concentration (MIC µg/ml):Organism 3 Inducible Clindamycin resistance,60,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,inducible_clindamycin_resistance_interpretation_raw_3,inducible_clindamycin_resistance_interpretation_raw_3,update,FALSE,,NA,crf11_16o3_tii,16rii S/I/R Code :Organism 3- Inducible Clindamycin resistance,110.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,inducible_clindamycin_resistance_interpretation_3,inducible_clindamycin_resistance_interpretation_3,update,FALSE,,NA,crf11_16o3_tii,16rii S/I/R Code :Organism 3- Inducible Clindamycin resistance,96.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,trimethoprim_sulfamethoxazole_mic_3,trimethoprim_sulfamethoxazole_mic_3,update,FALSE,,NA,crf11_15o3_si,15si Minimum Inhibitory Concentration (MIC µg/ml): Organism 3-  Trimethoprim/ Sulfamethoxazole,54.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,trimethoprim_sulfamethoxazole_interpretation_raw_3,trimethoprim_sulfamethoxazole_interpretation_raw_3,update,FALSE,,NA,crf11_15o3_sii,15sii S/I/R Code: Organism 3-  Trimethoprim/ Sulfamethoxazole,106.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,trimethoprim_sulfamethoxazole_interpretation_3,trimethoprim_sulfamethoxazole_interpretation_3,update,FALSE,,NA,crf11_15o3_sii,15sii S/I/R Code: Organism 3-  Trimethoprim/ Sulfamethoxazole,92.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,erythromycin_mic_3,erythromycin_mic_3,update,FALSE,,NA,crf11_16o3_si,16ri Minimum Inhibitory Concentration (MIC µg/ml):Organism 3 Erythromycin,68.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,erythromycin_interpretation_raw_3,erythromycin_interpretation_raw_3,update,FALSE,,NA,crf11_16o3_sii_v2,16rii S/I/R Code :Organism 3- Erythromycin,123.5,isolate_slot_semantics,needs_review
+v1.0.0,v1.1.0,erythromycin_interpretation_3,erythromycin_interpretation_3,update,FALSE,,NA,crf11_16o3_sii_v2,16rii S/I/R Code :Organism 3- Erythromycin,109.5,isolate_slot_semantics,needs_review
