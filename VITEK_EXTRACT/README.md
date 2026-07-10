@@ -63,9 +63,10 @@ That setup stays on the local machine until the saved credential is removed or r
 
 ```text
 VITEK_EXTRACT/
+|-- .here
 |-- app.R
-|-- PROJECT_CONTEXT.md
 |-- README.md
+|-- LICENSE
 |-- config/
 |   `-- redcap_config.yml
 |-- data_raw/
@@ -177,7 +178,9 @@ You can also use the included launchers on Windows:
 
 ```text
 run_app.bat
+run_app.ps1
 run_tests.bat
+run_tests.ps1
 ```
 
 ## Running tests
@@ -256,6 +259,7 @@ Latest verified checks:
 - `0` failures
 - `0` warnings
 - `app.R` parses successfully
+- the Shiny application object constructs successfully from the repository subfolder
 
 ## License
 
