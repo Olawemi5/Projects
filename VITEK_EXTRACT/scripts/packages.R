@@ -1,7 +1,7 @@
 #### Package checks ####
 
 required_packages <- c(
-  "pdftools", "dplyr", "tidyr", "stringr", "purrr", "tibble", "readr",
+  "shiny", "pdftools", "dplyr", "tidyr", "stringr", "purrr", "tibble", "readr",
   "janitor", "lubridate", "REDCapR", "assertthat", "validate", "logger",
   "glue", "fs", "here", "config", "yaml", "openxlsx", "rmarkdown",
   "progress", "bslib", "DT"
@@ -47,9 +47,6 @@ library(validate)
 # Logging and workflow messages
 library(logger)
 library(glue)
-
-# Functional programming / iteration
-library(purrr)
 
 # File and folder management
 library(fs)
