@@ -1,0 +1,3 @@
+redcap_uri: "https://redcap.example.org/api/"
+keyring_service: "redcap_api"
+keyring_username: "your_username"

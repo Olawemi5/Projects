@@ -1,0 +1,16 @@
+.Rhistory
+.RData
+.Rproj.user
+.Renviron
+data_raw/*
+data_processed/*
+output/*
+logs/*
+review/*
+docs/saved_mappings/*
+!data_raw/.gitkeep
+!data_processed/.gitkeep
+!output/.gitkeep
+!logs/.gitkeep
+!review/.gitkeep
+!docs/saved_mappings/.gitkeep
