@@ -476,8 +476,8 @@ ui <- bslib::page_sidebar(
         ),
         shiny::uiOutput("landing_uploader_message"),
         shiny::actionButton("enter_workflow", "Continue", class = "btn-primary btn-lg"),
-        shiny::actionButton("open_contact_developer", HTML("&#9742;"), class = "btn btn-outline-secondary landing-contact-trigger", title = "Contact developer"),
-        shiny::actionButton("open_package_summary", HTML("&#128161;"), class = "btn btn-outline-secondary landing-about-trigger", title = "About this package")
+        shiny::actionButton("open_contact_developer", shiny::HTML("&#9742;"), class = "btn btn-outline-secondary landing-contact-trigger", title = "Contact developer"),
+        shiny::actionButton("open_package_summary", shiny::HTML("&#128161;"), class = "btn btn-outline-secondary landing-about-trigger", title = "About this package")
       )
     )
   ),
@@ -724,7 +724,7 @@ server <- function(input, output, session) {
             class = "contact-option-item",
             shiny::div(
               class = "contact-option-head",
-              shiny::span(class = "contact-option-icon", HTML("&#9993;")),
+              shiny::span(class = "contact-option-icon", shiny::HTML("&#9993;")),
               shiny::div(class = "contact-option-label", "Mail")
             ),
             shiny::tags$a(
@@ -736,7 +736,7 @@ server <- function(input, output, session) {
             class = "contact-option-item",
             shiny::div(
               class = "contact-option-head",
-              shiny::span(class = "contact-option-icon", HTML("&#128247;")),
+              shiny::span(class = "contact-option-icon", shiny::HTML("&#128247;")),
               shiny::div(class = "contact-option-label", "Instagram")
             ),
             shiny::div(class = "contact-option-muted", "In progress")
@@ -754,7 +754,7 @@ server <- function(input, output, session) {
             class = "contact-option-item",
             shiny::div(
               class = "contact-option-head",
-              shiny::span(class = "contact-option-icon", HTML("&#9742;")),
+              shiny::span(class = "contact-option-icon", shiny::HTML("&#9742;")),
               shiny::div(class = "contact-option-label", "Phone")
             ),
             shiny::div(class = "contact-option-muted", "In progress")

@@ -1,3 +1,0 @@
-REDCAP_URI=https://redcap.example.org/api/
-KEYRING_SERVICE=redcap_api
-KEYRING_USERNAME=your_username

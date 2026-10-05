@@ -8,6 +8,7 @@ output/*
 logs/*
 review/*
 docs/saved_mappings/*
+docs/redcap_append_variable_mapping_suggested.csv
 !data_raw/.gitkeep
 !data_processed/.gitkeep
 !output/.gitkeep

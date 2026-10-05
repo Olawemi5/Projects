@@ -2,6 +2,10 @@
 
 This project is an R-based Shiny application that wraps an existing VITEK AST extraction and REDCap upload pipeline. It keeps the workflow R-first, modular, and reproducible while adding a user-facing interface for running the process end to end.
 
+## User guide
+
+New users should begin with the illustrated, task-based **[How to Use VITEK-EXTRACT](docs/user-guide/README.md)** guide. It includes installation, REDCap keyring setup, uploader selection, PDF processing, mapping, validation, upload safety, troubleshooting, privacy guidance, developer procedures, and a printable [preflight checklist](docs/user-guide/PREFLIGHT-CHECKLIST.md).
+
 ## What the app does
 
 The app supports this workflow:
@@ -63,9 +67,10 @@ That setup stays on the local machine until the saved credential is removed or r
 
 ```text
 VITEK_EXTRACT/
+|-- .here
 |-- app.R
-|-- PROJECT_CONTEXT.md
 |-- README.md
+|-- LICENSE
 |-- config/
 |   `-- redcap_config.yml
 |-- data_raw/
@@ -177,7 +182,9 @@ You can also use the included launchers on Windows:
 
 ```text
 run_app.bat
+run_app.ps1
 run_tests.bat
+run_tests.ps1
 ```
 
 ## Running tests
@@ -254,8 +261,9 @@ Latest verified checks:
 
 - `235` tests passed
 - `0` failures
-- `0` warnings
+- Windows locale configurations may emit non-failing character-transliteration warnings; review and report warnings separately from failures
 - `app.R` parses successfully
+- the Shiny application object constructs successfully from the repository subfolder
 
 ## License
 
